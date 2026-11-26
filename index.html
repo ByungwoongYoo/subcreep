@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SubCreep — See your subscription total and next renewals</title>
+<meta name="description" content="See your subscription total and next renewals. No-bank tracker: monthly total, renewals in 7 days, D-3 reminders. Free ≤5 · Pro $5 lifetime early access."/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand">
+    <h1>SubCreep <span class="badge">Live</span></h1>
+    <p>See your subscription total and next renewals · no bank login</p>
+  </div>
+  <nav class="nav">
+    <a class="btn" href="index.html">Home</a>
+    <a class="btn" href="app.html?quiz=0">Open app</a>
+    <a class="btn btn-primary" href="https://yoonge.gumroad.com/l/subcreep-pro" target="_blank" rel="noopener">Buy Pro · $5</a>
+    <a class="btn" href="#waitlist">Waitlist</a>
+  </nav>
+</header>
+
+<section class="land-hero">
+  <span class="badge">No bank · privacy-first · English</span>
+  <h1>See your subscription total<br/>and next renewals</h1>
+  <p class="lead">
+    Add subscriptions manually or import a CSV. See monthly costs and renewals in the next 7 days — without linking a bank. Your list stays in this browser.
+  </p>
+  <div class="land-cta">
+    <a class="btn btn-primary btn-lg" href="app.html?quiz=0">Open the free tracker</a>
+    <a class="btn btn-lg" href="app.html?quiz=1">Optional self-assessment</a>
+    <a class="btn btn-lg" href="https://yoonge.gumroad.com/l/subcreep-pro" target="_blank" rel="noopener">Buy Pro · $5</a>
+  </div>
+<p class="lead">No automatic bank-charge discovery, cancellation, or notifications. Export a Markdown checklist to manage reminders yourself. Demo entries are examples, not your spending.</p>
+</section>
+
+<div class="card">
+  <h2>The problem</h2>
+  <p style="margin:0;color:var(--muted)">
+    Streaming, AI, cloud, and fitness charges keep hitting cards you forgot you linked.
+    Statements never answer “how much this month?” or “what renews next week?”
+    Bank-linking apps feel heavy; spreadsheets go stale.
+  </p>
+</div>
+
+<div class="card">
+  <h2>How it works (no bank)</h2>
+  <div class="steps">
+    <div class="step"><div class="n">1</div><h3>Add your subscriptions</h3>
+      <p>Enter name / USD / cycle / renewal — or import CSV. The optional self-assessment does not detect charges.</p></div>
+    <div class="step"><div class="n">2</div><h3>See your list total</h3>
+      <p>Total the entries in your list (yearly ÷ 12) and see renewals in 7 days.</p></div>
+    <div class="step"><div class="n">3</div><h3>Remind / upgrade</h3>
+      <p>Export a D-3 Markdown checklist. Free ≤5; Pro $5 removes the soft-gate.</p></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Example list — demo entries, not your spending</h2>
+  <div class="fake-shot" aria-label="Sample monthly total screenshot">
+    <div class="bar">
+      <div>
+        <div style="color:var(--muted);font-size:0.8rem">Monthly total ≈USD</div>
+        <div class="amt">$70.46</div>
+      </div>
+      <span class="badge">5 seed subs</span>
+    </div>
+    <div class="fake-row"><span>Netflix</span><span>$15.49</span></div>
+    <div class="fake-row"><span>Spotify</span><span>$11.99</span></div>
+    <div class="fake-row"><span>ChatGPT Plus</span><span>$20.00</span></div>
+    <div class="fake-row"><span>iCloud+</span><span>$2.99</span></div>
+    <div class="fake-row"><span>Adobe Creative Cloud</span><span>$19.99</span></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Free vs Pro</h2>
+  <div class="pricing">
+    <div class="price-card">
+      <h3>Free</h3>
+      <div class="amt" style="color:var(--good)">$0</div>
+      <ul>
+        <li>≤5 subscriptions (soft over-limit — still usable)</li>
+        <li>Optional self-assessment · monthly total · renewal list</li>
+        <li>CSV export / import · reminder MD</li>
+        <li>Data stays in localStorage</li>
+      </ul>
+      <div style="margin-top:14px">
+        <a class="btn btn-primary" href="app.html?quiz=0">Open the free tracker</a>
+      </div>
+    </div>
+    <div class="price-card featured">
+      <h3>Pro <span class="badge badge-pro">Early access</span></h3>
+      <div class="amt">$5</div>
+      <p style="margin:0 0 8px;color:var(--muted);font-size:0.85rem">One-time · Pro unlock — lifetime early access</p>
+      <ul>
+        <li>Unlimited subscriptions (no Free ≤5 banner)</li>
+        <li>Pro badge · same privacy-first localStorage app</li>
+        <li>Cheaper / no-bank vs Rocket Money ($6–12)</li>
+        <li>Gumroad checkout · unlock code in your receipt</li>
+      </ul>
+      <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px">
+        <a class="btn btn-primary" href="https://yoonge.gumroad.com/l/subcreep-pro" target="_blank" rel="noopener">Buy Pro · $5</a>
+        <a class="btn" href="#waitlist">Prefer waitlist</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card" id="sheet">
+  <h2>Prefer a spreadsheet?</h2>
+  <p style="margin:0 0 12px;color:var(--muted);font-size:0.9rem">
+    The Subscription Audit Tracker is an Excel / Google Sheets template: list your recurring charges once and see monthly and yearly spend, what renews in the next 7 days, and what you pay for but no longer use. No macros, no account.
+  </p>
+  <a class="btn" href="https://yoonge.gumroad.com/l/subscription-audit-tracker?utm_source=subcreep" target="_blank" rel="noopener">Get the Subscription Audit Tracker · $5</a>
+</div>
+
+<div class="card" id="waitlist">
+  <h2>Pro waitlist</h2>
+  <p style="margin:0 0 12px;color:var(--muted);font-size:0.9rem">
+    Prefer not to buy yet? Leave your email — we’ll notify you about Pro updates.
+    Or <a href="https://yoonge.gumroad.com/l/subcreep-pro" target="_blank" rel="noopener">Buy Pro · $5</a> now (lifetime early access).
+  </p>
+  <form action="index.html#waitlist" class="grid" id="waitlist-form" method="POST" name="pro-waitlist">
+    <input type="hidden" name="form-name" value="pro-waitlist"/>
+    <p class="hp">
+      <label>Don’t fill this out if you’re human: <input name="bot-field" tabindex="-1" autocomplete="off"/></label>
+    </p>
+    <div>
+      <label for="wl-name">Name</label>
+      <input id="wl-name" name="name" required placeholder="Alex"/>
+    </div>
+    <div>
+      <label for="wl-email">Email</label>
+      <input id="wl-email" name="email" type="email" required placeholder="alex@example.com"/>
+    </div>
+    <div class="full">
+      <label for="wl-note">Note (optional)</label>
+      <textarea id="wl-note" name="note" placeholder="How many subs do you think you forgot?"></textarea>
+    </div>
+    <div class="full">
+      <button type="submit" class="btn btn-primary btn-lg">Join Pro waitlist</button>
+    </div>
+  </form>
+</div>
+
+<footer>
+  SubCreep · See your subscription total and next renewals · Free ≤5 · Pro <span class="price-pill">$5</span>
+  lifetime early access (Gumroad) · waitlist still open ·
+  <a href="https://yoonge.gumroad.com/l/subscription-audit-tracker?utm_source=subcreep" target="_blank" rel="noopener">Spreadsheet version</a> ·
+  Founder 유병웅 / BigWonder · client-side only · no Open Banking
+
+  <div class="dir-badges" style="margin-top:12px;display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+    <a href="https://fazier.com" target="_blank" rel="noopener"><img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light" width="120" alt="Fazier badge" /></a>
+    <a href="https://thesaasdir.com/product/subcreep?ref=badge" rel="dofollow" target="_blank"><img src="https://thesaasdir.com/badge/subcreep.svg" alt="Featured on TheSaaSDir" width="182" height="46"></a>
+    <a href="https://indielineup.com/product/subcreep?ref=badge" rel="dofollow"><img src="https://indielineup.com/badge/subcreep.svg" alt="Listed on indielineup.com" height="40"></a>
+    <a href="https://saaslineup.com/product/subcreep?ref=badge" rel="dofollow"><img src="https://saaslineup.com/badge/subcreep.svg" alt="Listed on saaslineup.com" height="40"></a>
+    <a href="https://themicrosaasdir.com/product/subcreep?ref=badge" rel="dofollow"><img src="https://themicrosaasdir.com/badge/subcreep.svg" alt="Listed on themicrosaasdir.com" height="40"></a>
+    <a class="hypestar-badge hypestar-badge--auto" data-hypestar-theme="auto" href="https://hypestar.org/?utm_source=supporter_badge&amp;utm_medium=referral&amp;utm_campaign=hype_star_badge" target="_blank" rel="noopener nofollow"><img class="hypestar-badge__image" src="https://hypestar.org/badges/support-hype-star-auto-v2.svg" alt="Hype Star" width="140" height="24" loading="lazy" /></a>
+  </div>
+</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
